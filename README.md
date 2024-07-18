@@ -19,8 +19,9 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
 <br>
   ### AutoMode:<br>
   AutoMode時の画像の表示順の指定する。<br>
-  
-  　　0:off　... AutoMode使用しない <br>
+  <br>
+
+      0:off　... AutoModeを使用しない <br>
       1:forward<br>
       2:backward<br>
       3:random<br>
@@ -44,7 +45,7 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
   <br><br>
 
 ## 設定メニュー（SettingMenu）：BtnB長押し<br>
-  ### AutoMode:<br>
+  ### 1.AutoMode:<br>
   AutoMode時の画像の表示順の指定<br>
   0:off<br>
       1:forward<br>
@@ -52,7 +53,7 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
       3:random<br>
 <br>
 
-  ### AutoModeInterval<br>
+  ### 2.AutoModeInterval<br>
   AutoMode時の画像の表示する間隔時間<br>
   <br>
       3sec<br>
@@ -60,19 +61,23 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
       10sec<br>
   <br>
 
-  ### AutoModeInterval Random<br>
+  ### 3.AutoModeInterval Random<br>
   off<br>
   on<br>
 
-  ### Load SD-Updater menu.bin<br>
+  ### 4.Load SD-Updater menu.bin<br>
+
 
 SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br>
 <br>
 
- ### Save bin-file to SD<br>
+ ### 5.Save bin-file to SD<br>
 現在動いてるアプリをSDにbinファイルとして保存します。<br>
 <br>
-<br>
+
+ ### 6.Power Off<br>
+電源を切ります。<br>
+<br><br>
 
 ## 設定ファイル
 設定ファイルは、SDの"/app/imgView/imgView.json" です。<br>
@@ -107,6 +112,9 @@ SDは、相性等（？）で、動作が不安定になるものがあります
 
 
 ![画像](images/s-pc01.png )<br>
+
+
+
 
 接続が完了しますと、本体（M5Stack Core2）のSDまたは、SPIFFSのフォルダやファイルが画面表示されます。<br>
 エクスプローラーでファイル操作することができるようになります。<br><br>
