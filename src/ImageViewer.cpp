@@ -4,7 +4,7 @@
 #include <Arduino_JSON.h>
 #include <string.h>
 
-const char *ImageViewer::VERSION = "v105-mod-V202";
+const char *ImageViewer::VERSION = "v101";
 const char *ImageViewer::DEFAULT_CONFIG_NAME = "/app/imgView/imgView.json";
 String ImageViewer::DATA_DIR("/Pictures");
 const char *ImageViewer::KEY_DATA_DIR = "DataDir";

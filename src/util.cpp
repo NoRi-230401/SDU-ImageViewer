@@ -5,9 +5,9 @@
 #include "util.hpp"
 #include "menu.hpp"
 
-#define APP_VER "SDU-imageViewer-v201-230624"
+#define APP_VER "SDU-imageViewer-v101-240718"
 #define APP_NAME "SDU-imageViewer" // app Name
-#define APP_BIN "/21_imgView.bin"  // app bin file-name
+#define APP_BIN "/91_imgView.bin"  // app bin file-name
 #define TIMEOUT00 5000             // lobby countdouwn timeout : msec
 
 bool SdBegin();
