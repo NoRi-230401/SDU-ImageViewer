@@ -1,14 +1,16 @@
 # SDU-ImageView
 
-SD-Updaterに対応したファイル画像表示ツールです。<br>
-SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象とします。<br>
-最大５０枚。フォルダは、変更可能です。<br>
+SD-Updaterに対応した画像ファイルの表示ツールです。<br>
+SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を対象とします。<br>
+最大５０枚。フォルダは、設定ファイルで変更可能です。<br>
+
+※画像と設定ファイルのサンプルを用意しています。SDにフォルダを作成してコピーしてご使用ください。
 <br>
 <br>
 
 
 ## 手動（Manul）モード  <br>
-  BtnA:逆順(backward)・BtnC:正順(forward)を押すたびにファイル名の並びで画像を切り替えて表示<br>
+  BtnA:逆順(backward)・BtnC:正順(forward)を押すたびに、<b>ファイル名の並び</b>で画像を切り替えて表示します。<br>
   <br>
   <br>
 
@@ -132,10 +134,12 @@ SDは、相性等があるので動作が不安定になるものがあります
 
 
 ## 参照情報
-以下の情報を参照しました。<br>
+以下の情報を参考にさせていただきました。<br>
 
 SAITO, Tetsuya：3110さん m5stack-image-viewer<br>
 https://github.com/3110/m5stack-image-viewer
+
+<br>
 
 このソフトのGitHub<br>
 https://github.com/NoRi-230401/SDU-ImageViewer
