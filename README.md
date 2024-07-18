@@ -40,14 +40,14 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
 
   ### AutoModeInterval Random<br>
   表示間隔のMaxをAutoModeInterval時間としてたランダム時間にするかどうか。<br>
-  false : off<br>
-  true  : on<br>
+      false : off<br>
+      true  : on<br>
   <br><br>
 
 ## 設定メニュー（SettingMenu）：BtnB長押し<br>
   ### 1.AutoMode:<br>
   AutoMode時の画像の表示順の指定<br>
-  0:off<br>
+      0:off<br>
       1:forward<br>
       2:backward<br>
       3:random<br>
@@ -62,12 +62,13 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
   <br>
 
   ### 3.AutoModeInterval Random<br>
-  off<br>
-  on<br>
-
+  <br>
+      off<br>
+      on<br>
+  <br>
+  
   ### 4.Load SD-Updater menu.bin<br>
-
-
+<br>
 SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br>
 <br>
 
@@ -104,7 +105,7 @@ SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br
 <br>
 
 ### SD:　 FAT32 format
-SDは、相性等（？）で、動作が不安定になるものがありますので注意が必要です。</b><br>
+SDは、相性等があるので動作が不安定になるものがありますので注意が必要です。</b><br>
 <br><br>
 
 
@@ -113,9 +114,7 @@ SDは、相性等（？）で、動作が不安定になるものがあります
 
 ![画像](images/s-pc01.png )<br>
 
-
-
-
+<br><br><br>
 接続が完了しますと、本体（M5Stack Core2）のSDまたは、SPIFFSのフォルダやファイルが画面表示されます。<br>
 エクスプローラーでファイル操作することができるようになります。<br><br>
 
@@ -125,11 +124,9 @@ SDは、相性等（？）で、動作が不安定になるものがあります
 
  - スマホ(Android/iPhone)やPC(Mac/Linuex)等でもWebDavは、接続できるようです。<br>
  （未確認）<br>
- <br>
-
-
-
+<br>
 <br><br>
+
 
 ## 参照情報
 以下の情報を参照しました。<br>
