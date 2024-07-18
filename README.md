@@ -1,4 +1,139 @@
-[In English](README_en_US.md)
+# SDU-ImageView
+
+SD-Updaterに対応したファイル画像表示ツールです。<br>
+
+
+
+## 手動（Manul）モード  <br>
+  BtnA:逆順(backward)・BtnC:正順(forward)を押すたびにファイル名の並びで画像を切り替えて表示<br>
+  <br>
+  <br>
+
+## Setting menu  ：BtnB長押しで入る。<br>
+  ### AutoMode:<br>
+  AutoMode時の画像の表示順の指定<br>
+  
+  　　0:off<br>
+      1:forward<br>
+      2:backward<br>
+      3:random<br>
+<br>
+
+  ### AutoModeInterval<br>
+  AutoMode時の画像の表示する間隔時間<br>
+  <br>
+      3sec<br>
+      5sec<br>
+      10sec<br>
+  <br>
+
+  ### AutoModeInterval Random<br>
+
+  off<br>
+  on<br>
+
+<br>
+
+  ### Load SD-Updater menu.bin<br>
+<br>
+
+ ### Save bin-file to SD<br>
+<br>
+
+
+
+## 設定ファイル
+SDの"/app/imgView/imgView.json"を参照します。<br>
+初期動作設定します。
+{
+  "AutoMode": 0,　　　　　　　　 ：　"0" to "3" 
+  "AutoModeInterval": 5000,　　 ：  interval Time [mSec]
+  "AutoModeRandomized": false,　：  "true" or "false"
+  "DataDir" : "/Pictures"　　　 ：  画像フォルダ指定
+}
+
+
+
+
+
+br>  
+
+## 対応ハードウエア
+### 本体:　 M5Stack Core2
+- M5Stack Core2 for AWS（動作確認している機種）<br>
+- M5Stack Core2 <br>
+- M5Stack Core2 v1.1　<br>
+<br>
+
+### SD:　 FAT32 format
+SDは、相性等（？）で、動作が不安定になるものがありますので注意が必要です。</b><br>
+<br><br>
+
+
+
+## 使用方法
+### 電源投入
+電源投入直後のブート時に SD-UpdaterのLobby画面が現れます。<br>
+その後、ソフトが立ち上がり、wifi等の設定が完了しますと接続情報が画面に表示されます。<br>
+画像から、FileSystemは、SDを選択されていることが確認できます。（初期値）<br><br>
+![画像](images/s-webdav01.jpg)<br><br>
+
+<br>
+
+### PCからのアクセス
+PCは、win11での説明です。<br>
+win11に標準搭載されているエクスプローラーというファイル管理用のソフトを使用します。<br>
+エクスプローラー起動後、画面上部の入力箇所に全て半角文字で、<br>
+ - <b>"￥￥webDav￥DavWWWRoot"</b>　と入力してください。<br><br>
+
+または、webDav(HOSTNAME)の代わりに、<b>IPアドレス</b>を入れることもできます。<br>
+ - <b>(例)　"￥￥192.168.0.16￥DavWWWRoot"</b>
+
+<br><br>
+![画像](images/s-pc01.png )<br>
+
+接続が完了しますと、本体（M5Stack Core2）のSDまたは、SPIFFSのフォルダやファイルが画面表示されます。<br>
+エクスプローラーでファイル操作することができるようになります。<br><br>
+
+ - 画面にショートカットを作成するとアクセスが簡単になります。<br>
+
+ - デスクトップの「PC」アイコンを右クリックし、ネットワークドライブの割り当てで使用することもできます。<br>
+
+ - スマホ(Android/iPhone)やPC(Mac/Linuex)等でもWebDavは、接続できるようです。<br>
+ （未確認）<br>
+ <br>
+
+<br><br>
+
+### Special Mode : (BtnB)の長押し<br>
+Special Modeの画面になり、FileSystemの変更(SD <-> SPIFFS)等ができます。<br>
+![画像](images/s-webdav02.jpg )<br>
+<br>
+FileSystemが変更されますと、一度リブートします。<br>
+その後、変更後のFileSystemが有効になります。<br>
+
+<br><br>
+
+## 参照情報
+以下の情報を参照しました。<br>
+
+ESPWebDAVライブラリ<br>
+https://github.com/d-a-v/ESPWebDAV<br>
+
+たなかまさゆき さん(@tnkmasayuki)<br>
+https://lang-ship.com/blog/work/esp32-webdav/<br>
+
+リナちゃん@chrmlinux03<br>
+https://qiita.com/chrmlinux03/items/5d65893760dad6f4bee0<br>
+
+このソフトのGitHub<br>
+https://github.com/NoRi-230401/SDU-WebDav<br>
+
+<br><br><br>
+
+
+
+
 
 # M5Stackシリーズ用画像表示プログラム
 
