@@ -29,24 +29,27 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
 
   ### AutoModeInterval<br>
   AutoMode時の画像の表示する間隔時間の設定<br>
-  <br>
-    [mSEC]単位で設定する。<br>
+  設定ファイルでは、[mSEC]単位で設定する。<br>
 
-    設定Menuでは、次の３選択のみ可能<br>
+    設定Menuでは、次の３択<br>
       3sec<br>
       5sec<br>
       10sec<br>
   <br>
 
   ### AutoModeInterval Random<br>
+
   表示間隔のMaxをAutoModeInterval時間としてたランダム時間にするかどうか。<br>
-      false : off<br>
-      true  : on<br>
-  <br><br>
+    
+    false : off<br>
+    true  : on<br>
+  <br>
+  <br>
 
 ## 設定メニュー（SettingMenu）：BtnB長押し<br>
   ### 1.AutoMode:<br>
   AutoMode時の画像の表示順の指定<br>
+
       0:off<br>
       1:forward<br>
       2:backward<br>
@@ -55,14 +58,14 @@ SD上の"/Pictures"フォルダ内の画像ファイル(jpg/png形式)を対象�
 
   ### 2.AutoModeInterval<br>
   AutoMode時の画像の表示する間隔時間<br>
-  <br>
+  
       3sec<br>
       5sec<br>
       10sec<br>
   <br>
 
   ### 3.AutoModeInterval Random<br>
-  <br>
+  
       off<br>
       on<br>
   <br>
