@@ -15,7 +15,7 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
 
 
 ## 自動（Auto）モード  <br>
-  設定ファイル（"/app/imageView/imgView.json"）に従い表示。<br>
+  設定ファイル（"/app/imgView/imgView.json"）に従い表示。<br>
   または、<b>BtnBの長押し</b>で、設定メニュー（SettingMenu）で変更する。<br>
 <br>
   ### AutoMode:<br>
