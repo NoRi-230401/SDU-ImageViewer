@@ -17,7 +17,7 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
 
 ## 自動（Auto）モード  <br>
   設定ファイル（"/app/imageView/imgView.json"）に従い表示。<br>
-  または、BtnBの長押しで、設定メニュー（SettinMenu）から変更する。<br>
+  または、<b>BtnBの長押し</b>で、設定メニュー（SettingMenu）で変更する。<br>
 <br>
   ### AutoMode:<br>
   AutoMode時の画像の表示順の指定する。<br>
@@ -33,7 +33,7 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
   AutoMode時の画像の表示する間隔時間の設定<br>
   設定ファイルでは、[mSEC]単位で設定する。<br>
 
-    設定Menuでは、次の３択<br>
+    SettingMenuでは、次の３択<br>
       3sec<br>
       5sec<br>
       10sec<br>
@@ -49,6 +49,14 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
   <br>
 
 ## 設定メニュー（SettingMenu）：BtnB長押し<br>
+  
+  ![画像](images/menu-all.jpg )<br>
+  
+  <b>BtnA: prev</b>　前のmenu<br>
+  <b>BtnB: exit</b>　SettingMenuを抜ける<br>
+  <b>BtnC: next</b>　次のmenu<br>
+<br>
+
   ### 1.AutoMode:<br>
   AutoMode時の画像の表示順の指定<br>
 
@@ -111,25 +119,6 @@ SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br
 
 ### SD:　 FAT32 format
 SDは、相性等があるので動作が不安定になるものがありますので注意が必要です。</b><br>
-<br><br>
-
-
-## SettingMenu画像
-
-
-![画像](images/s-pc01.png )<br>
-
-<br><br><br>
-接続が完了しますと、本体（M5Stack Core2）のSDまたは、SPIFFSのフォルダやファイルが画面表示されます。<br>
-エクスプローラーでファイル操作することができるようになります。<br><br>
-
- - 画面にショートカットを作成するとアクセスが簡単になります。<br>
-
- - デスクトップの「PC」アイコンを右クリックし、ネットワークドライブの割り当てで使用することもできます。<br>
-
- - スマホ(Android/iPhone)やPC(Mac/Linuex)等でもWebDavは、接続できるようです。<br>
- （未確認）<br>
-<br>
 <br><br>
 
 
