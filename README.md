@@ -1,4 +1,4 @@
-# SDU-ImageView
+# SDU-ImageViewer
 
 SD-Updaterに対応した画像ファイルの表示ツールです。<br>
 SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を対象とします。<br>
