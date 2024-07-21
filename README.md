@@ -4,9 +4,8 @@ SD-Updaterに対応した画像ファイルの表示ツールです。<br>
 SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を対象とします。<br>
 最大５０枚。フォルダは、設定ファイルで変更可能です。<br>
 
-※画像と設定ファイルのサンプルを用意しています。SDにフォルダを作成してコピーしてご使用ください。
-<br>
-<br>
+※画像と設定ファイルのサンプルを用意しています。SDにフォルダを作成してコピーしてご使用ください。<br>
+
 
 
 ## 手動（Manul）モード  <br>
@@ -97,6 +96,15 @@ SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br
 設定ファイルは、SDの"/app/imgView/imgView.json" です。<br>
 初期動作の設定を行います。<br>
 
+※設定ファイルがない場合には、次の初期値で動作します。<br>
+"AutoMode"　　　　 --> "0" [off]<br>
+"AutoModeInterval" 　 --> 3000 [mSec]<br>
+"AutoModeRandomized" --> "false" [off]<br>
+"DataDir" --> "/Pictures"　<br>
+<br>
+
+"/app/imgView/imgView.json"のサンプル<br>
+
 ```json
 {
   "AutoMode": 0,
@@ -108,8 +116,9 @@ SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br
   "AutoMode"　　　　 -->  "0" to "3" <br>
   "AutoModeInterval"     　 -->  interval Time [mSec]<br>
   "AutoModeRandomized"      -->  "true" or "false"<br>
-  "DataDir" : "/Pictures"　 -->  画像フォルダ指定<br>
-<br>  
+  "DataDir"  　 --> 　"/Pictures" 画像フォルダ指定<br>
+<br>  <br>  
+
 
 ## 対応ハードウエア
 ### 本体:　 M5Stack Core2
