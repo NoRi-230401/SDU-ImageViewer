@@ -59,24 +59,24 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
   ### 1.AutoMode:<br>
   AutoMode時の画像の表示順の指定<br>
 
-      0:off<br>
-      1:forward<br>
-      2:backward<br>
-      3:random<br>
+      0:off
+      1:forward
+      2:backward
+      3:random
 <br>
 
   ### 2.AutoModeInterval<br>
   AutoMode時の画像の表示する間隔時間<br>
   
-      3sec<br>
-      5sec<br>
-      10sec<br>
+      3sec
+      5sec
+      10sec
   <br>
 
   ### 3.AutoModeInterval Random<br>
   
-      off<br>
-      on<br>
+      off
+      on
   <br>
   
   ### 4.Load SD-Updater menu.bin<br>
