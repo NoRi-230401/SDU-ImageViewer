@@ -123,8 +123,7 @@ SDは、相性等があるので動作が不安定になるものがあります
 
 
 ## 参照情報
-以下の情報を参考にさせていただきました。<br>
-
+次のソフトウエアを参考にさせていただきました。ありがとうございます。<br>
 SAITO, Tetsuya：3110さん m5stack-image-viewer<br>
 https://github.com/3110/m5stack-image-viewer
 
