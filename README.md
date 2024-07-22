@@ -18,6 +18,7 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
   設定ファイル（"/app/imgView/imgView.json"）に従い表示。<br>
   または、<b>BtnBの長押し</b>で、設定メニュー（SettingMenu）で変更する。<br>
 <br>
+  
   ### AutoMode:<br>
   AutoMode時の画像の表示順の指定する。<br>
   <br>
@@ -38,9 +39,9 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
       10sec
   <br>
 
-  ### AutoModeInterval Random<br>
+  ### AutoModeIntvalRnd<br>
 
-  表示間隔のMaxをAutoModeInterval時間としてたランダム時間にするかどうか。<br>
+  画像表示間隔のMaxを上のAutoMode Interval時間として、その範囲内で表示間隔をランダムにするかどうか指定できる。<br>
     
     false : off
     true  : on
@@ -65,7 +66,7 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
       3:random
 <br>
 
-  ### 2.AutoModeInterval<br>
+  ### 2.AutoMode Interval<br>
   AutoMode時の画像の表示する間隔時間<br>
   
       3sec
@@ -73,7 +74,7 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
       10sec
   <br>
 
-  ### 3.AutoModeInterval Random<br>
+  ### 3.AutoMode Interval Random<br>
   
       off
       on
@@ -97,10 +98,10 @@ SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br
 初期動作の設定を行います。<br>
 
 ※設定ファイルがない場合には、次の初期値で動作します。<br>
-"AutoMode"　　　　 --> "0" [off]<br>
+"AutoMode"　　　　    --> "0" [off]<br>
 "AutoModeInterval" 　 --> 3000 [mSec]<br>
-"AutoModeRandomized" --> "false" [off]<br>
-"DataDir" --> "/Pictures"　<br>
+"AutoModeIntvalRnd" 　--> "false" [off]<br>
+"DataDir"　　　　　　--> "/Pictures"　<br>
 <br>
 
 "/app/imgView/imgView.json"のサンプル<br>
@@ -108,14 +109,14 @@ SD-Updaterの menu.bin を呼出し、他のアプリに切り替えます。<br
 ```json
 {
   "AutoMode": 0,
-  "AutoModeInterval": 5000,
-  "AutoModeRandomized": false,
+  "AutoModeInterval": 4000,
+  "AutoModeIntvalRnd": true,
   "DataDir" : "/Pictures"
 }
 ```
   "AutoMode"　　　　 -->  "0" to "3" <br>
   "AutoModeInterval"     　 -->  interval Time [mSec]<br>
-  "AutoModeRandomized"      -->  "true" or "false"<br>
+  "AutoModeIntvalRnd"      -->  "true" or "false"<br>
   "DataDir"  　 --> 　"/Pictures" 画像フォルダ指定<br>
 <br>  <br>  
 
