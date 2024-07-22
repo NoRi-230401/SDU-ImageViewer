@@ -9,8 +9,8 @@ SD上の<b>"/Pictures"フォルダ</b>内の画像ファイル(jpg/png形式)を
 
 
 ## 手動（Manul）モード  <br>
-  BtnA:逆順(backward)・BtnC:正順(forward)を押すたびに、<b>ファイル名の並び</b>で画像を切り替えて表示します。<br>
-  <br>
+  <b>BtnA:逆順(backward)・BtnC:正順(forward)</b>を押すたびに、<b>ファイル名の並び</b>で画像を切り替えて表示します。<br>
+  サンプルの画像ファイルは、０～９までの数字順に並ぶよう名前を付けてます。<br>
   <br>
 
 
